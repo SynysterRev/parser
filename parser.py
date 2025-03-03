@@ -65,8 +65,8 @@ def main():
     for tree in trees:
         tree.pretty_print()
 
+        print("Noun Phrase Chunks")
         for np in np_chunk(tree):
-            print(np)
             print(" ".join(np.flatten()))
 
 
